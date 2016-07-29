@@ -2,9 +2,9 @@
 
 ##安装方法
 *搭建apache/nginx + php5，mongodb-server安装，安装php的mongo扩展。
-centos:
-php环境安装:yum install php
-mongodb安装:yum install mongodb-server
+  *centos:
+    *php环境安装:yum install php
+    *mongodb安装:yum install mongodb-server
 php的mongo扩展安装:yum install php-mongo
 
 启动apache:apachectl start
