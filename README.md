@@ -17,7 +17,7 @@ apache的php模块安装:apt-get install libapache2-mod-php5<br>
 mongodb:apt-get install mongo<br>
 php扩展安装:apt-get install php-mongo<br>
 
-安装搞不定，自己百度吧<br>
+以上安装方法凭记忆写的，不保证完全没问题，搞不定，自己百度吧<br>
 
 ###代码布署<br>
 git clone将代码放到web目录中，如/var/www/html<br>
