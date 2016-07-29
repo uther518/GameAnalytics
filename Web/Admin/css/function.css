@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../images/fn_bg.jpg);
+}
+.top{
+	border-top-color: #000;
+}
+
+.menu a.fn{
+	 width:94px;
+}
+.menu a.fn span{
+	background:url(../images/function-icon-c.png) no-repeat 20px 22px; color:#fff;
+}
+
+
+.logo{
+	text-align:center; margin-top:26px; height:123px; background:url(../images/light.png) no-repeat center bottom
+}
+.fncontent li{
+	background:url(../images/fn_c_bg.jpg);  border-radius:10px;-webkit-border-radius:10px; border:1px solid #131517; margin-bottom:75px; text-align:center;
+	-moz-box-shadow:0px 1px 1px #111 inset;              /* For Firefox3.6+ */
+	-webkit-box-shadow:0px 1px 1px #111 inset;           /* For Chrome5+, Safari5+ */
+	box-shadow:0px 1px 1px #111 inset;                   /* For Latest Opera */
+	position:relative;
+}
+.fncontent li span{
+	display:block;width:850px; height:40px; background:url(../images/shadow.png) no-repeat; _background:none; position:absolute; bottom:0px; left:0px; z-index:9;
+}
+.fncontent li h2{
+	font-size:22px; color:#2881B5; font-family:"微软雅黑"; margin:50px 0 10px 0;
+}
+.fncontent li p{
+	font-size:12px; line-height:21px; color:#fff;
+}
+.fncontent li p font{
+	color:#80C543;
+}
+.fncontent li img{
+	margin-top:35px;
+}

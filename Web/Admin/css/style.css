@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.menu a.hm{
+	 width:94px;
+}
+.menu a.hm span{
+	background:url(../images/home-icon-s.png) no-repeat 20px 22px; color:#fff;
+}
+
+.logo{
+	text-align:center; background:url(../images/Cloud.png) no-repeat 275px -5px; margin-top:25px;
+}
+h1{
+	font-size:15px; color:#777; line-height:24px; text-shadow:0 1px #fff; margin:0;
+}
+.banner{
+	height:430px; position:relative;
+}
+.People1{
+	width:272px; height:430px; background:url(../images/People1.png) no-repeat right 80px;_position:absolute; z-index: 9
+}
+.tel{
+	width:458px; height:387px;margin-top:43px;background:url(../images/tel.png) no-repeat;_position:absolute; left: 272px; z-index: 9
+}
+.tel img{
+	margin:24px 0 0 73px;
+}
+
+.People2{
+	width:270px; height:430px; background:url(../images/People2.png) no-repeat 19px 35px; _position:absolute; left: 830px; z-index: 9
+}
+.icon1{
+	position:absolute; left:95px; top:0px; width:108px; height:109px; background:url(../images/icon1.png) no-repeat; z-index: 99
+}
+.icon2{
+	position:absolute; left:17px; top:135px; width:116px; height:115px; background:url(../images/icon2.png) no-repeat; z-index: 99
+}
+.icon3{
+	position:absolute; left:135px; top:246px; width:85px; height:85px; background:url(../images/icon3.png) no-repeat; z-index: 99
+}
+.icon4{
+	position:absolute; left:850px; top:10px; width:117px; height:117px; background:url(../images/icon4.png) no-repeat; z-index: 99
+}
+.icon5{
+	position:absolute; left:800px; top:213px; width:125px; height:124px; background:url(../images/icon5.png) no-repeat; z-index: 99
+}
+.line1{
+	position:absolute;left:222px; top:65px; width:94px; height:46px; background:url(../images/line1.png) no-repeat;z-index: 99
+}
+.line2{
+	position:absolute;left:152px; top:130px; width:149px; height:68px; background:url(../images/line2.png) no-repeat; z-index: 99
+}
+.line3{
+	position:absolute;left:225px; top:221px; width:84px; height:50px; background:url(../images/line3.png) no-repeat; z-index: 99
+}
+.line4{
+	position:absolute;left:708px; top:71px; width:131px; height:60px; background:url(../images/line4.png) no-repeat -1px top; z-index: 99
+}
+.line5{
+	position:absolute;left:713px; top:142px; width:97px; height:76px; background:url(../images/line5.png) no-repeat -1px -1px;z-index: 99
+}
+.homecontent{
+	padding-bottom: 20px
+}
+.homecontent li{
+	width:220px; float:left; padding-right:20px; margin-left:15px; line-height:21px; border-right:1px solid #ccc; height: 95px;
+}
+.homecontent li b{
+	color:#128445;line-height:28px; text-shadow:0 1px #fff;
+}
+.homecontent li p{
+	color:#666; font-size:12px; text-align: left;
+}

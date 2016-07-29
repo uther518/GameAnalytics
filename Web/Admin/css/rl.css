@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.menu a.cn{
+	background:url(../images/cn.jpg) no-repeat left top;width: 82px;
+}
+.menu a:hover.cn{
+	width: 92px
+}
+.menu a.cn span{
+	background:url(../images/contact-icon.png) no-repeat 20px 22px;color:#002E3D
+}
+.menu a:hover.cn span{
+	background:url(../images/contact-icon-c.png) no-repeat 20px 22px; color:#fff;
+}

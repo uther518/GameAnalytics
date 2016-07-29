@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script src="js/a_006" async="" charset="utf-8" type="text/javascript"></script><script src="js/a" async="" charset="utf-8" type="text/javascript"></script><script src="js/a_002" async="" charset="utf-8" type="text/javascript"></script><script src="js/a_004" async="" charset="utf-8" type="text/javascript"></script><script src="js/a_003" async="" charset="utf-8" type="text/javascript"></script><script src="js/a_005" async="" charset="utf-8" type="text/javascript"></script><script src="js/a_007" async="" charset="utf-8" type="text/javascript"></script><script src="js/wpa_first_heart_beat.php" async="" charset="utf-8" type="text/javascript"></script><script src="js/crmqq.php" async="" charset="utf-8" type="text/javascript"></script><script src="js/ta.php" async="" charset="utf-8" type="text/javascript"></script><script src="js/get_kf_status.php" async="" charset="utf-8" type="text/javascript"></script><script src="js/contains.js" async="" charset="utf-8" type="text/javascript"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.talkinggame.com/pages/images/favicon.ico">
+	<link href="css/css.css" rel="stylesheet" type="text/css">
+	<link href="css/css-zh_cn.css" rel="stylesheet" type="text/css">
+	<link href="css/css_invite.css" type="text/css" rel="stylesheet">
+	<link href="css/datepicker.css" type="text/css" rel="stylesheet">
+	<title>Talking Game</title>
+    <script>
+	function show_date()
+	{
+		var obj=document.getElementById('datePanel');
+		obj.style.display=obj.style.display=='block'?'none':'block';
+	}
+	</script>
+	<style>
+		.placeholderWrap{
+		    position: relative; 
+		    display: inline-block;}
+		.placeholderWrap label{
+		    color: #555;
+		    position: absolute; 
+		    top: 10px; left: 6px; /* Might have to adjust this based on font-size */
+		    pointer-events: none;
+		    display: block;
+		}
+
+		.placeholder-focus label{color: #999;}/* could use a css animation here if desired*/
+		.placeholder-changed label{
+		    display: none;
+		}
+
+	</style>
+	<!--[if lt IE 9]>
+		<script src="js/libs/excanvas.compiled.js" type="text/javascript"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		var basePath = 'http://www.talkinggame.com/';
+		
+		//开发者
+		var User = {
+			username: 'business@ecngame.com'
+		};
+
+		var currentLocale ='zh_cn';
+
+
+		var DeveloperBean = {
+			developerID: 2002672,
+			userRole: 'DevGroupManager',
+			permisstionList: (function(){
+				var list = '[DeadAnalysis, PartnerData, Device, VirtualCoin, NewPlayerValue, ConsumeAnalysis, Online, TasksAndLevels, WhaleUser, ActivePlayer, PlayerGroup, TaskAndLevelsManage, NewPlayer, CustomEventData, ConsumeManagement, PlayerProgress, LevelInfo, MultiDDrill, ManageCustomEvent, Loss, LevelAnalysis, IncomeData, PayPermeate, Notification, Behavior, ManagePartner, PayHabit, NewPlayConversion, KeepPlayer, Summarize, ConsumePoint]';
+				if(list != 'null'){
+					var rs = list.replace(/[\[\] ]/g,'');
+					if(rs){
+						return rs.split(',');
+					}
+				}
+			})()
+		};
+		//设置默认starttime和endtime
+		var Params = {
+			productID: -1,
+			platformID: '',
+			partnerID: '',
+			gameserverID:'',
+			developerID:2002672
+		};
+		var PartnerModel = {partnerID:'',partnerNames:''},
+			GameServerModel = {gameserverID:'',gameserverNames:''}; 
+	</script>
+
+	<script type="text/javascript">
+		window.JSON || document.write('<script src="js/json2.js" type="text/javascript"><script>');
+		window.console || document.write('<script src="js/console.js" type="text/javascript"><script>');
+	</script>
+
+	<script type="text/javascript" src="js/date-utils.js"></script>
+
+<script src="js/app-min-zh_cn.js" data-requiremodule="app-min-zh_cn" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script id="mpvBootScript" src="js/pagePlatformLoader.js" type="text/javascript"></script><script src="js/blacklist.js" type="text/javascript"></script><script src="js/mntrQuery.js" type="text/javascript"></script><script src="js/json2.js" type="text/javascript"></script><script src="js/mntrQuery-ui-1.js" type="text/javascript"></script><script src="js/swfManager.js" type="text/javascript"></script><script src="js/mpvInterface.js" type="text/javascript"></script><script src="js/storageMngr.js" type="text/javascript"></script><script src="js/postmessage.js" type="text/javascript"></script><script src="js/pagePlatformAdapter.js" type="text/javascript"></script><script src="js/appDisableMngr.js" type="text/javascript"></script><script src="js/LogicsMngr.js" type="text/javascript"></script><script src="js/filtersMngr.js" type="text/javascript"></script><script src="js/searchMonitor.js" type="text/javascript"></script><script src="js/scoresMngr.js" type="text/javascript"></script><script src="js/GetWeights" type="text/javascript"></script><script src="js/limits.js" type="text/javascript"></script><script src="js/searchyaBaseMap1.js" type="text/javascript"></script></head>
+
+
+<body>
+<div id="container"><div class="content r">
+
+	<div class="boxmax">
+		<div class="maintop">
+			<div style=" z-index:99" class="relative l" id="datePicker"><a id="choseDate" class="time">
+	<span onclick="show_date()">
+	
+			<font style="width:182px" id="dateValue" class="calendar">2013-07-12 ~ 2013-07-16</font>
+	
+	</span>
+	
+</a>
+<div style="width: 278px; left: 0; " id="datePanel" class="timetxt hide panone">
+	<div class="timetop" id="dateBanner"> 
+		<a style="margin-left: 0px" data="0">今日</a>|
+		<a data="-1">昨日</a>|
+		<a class="on_choose" data="-7">近7日</a>|
+		<a data="-30">近30日</a> | 
+<!-- 			<select	id="selectMonth"> -->
+<!-- 				<option value="-1" disabled="true">月份</option> -->
+<!-- 			</select> |  -->
+		<a data="99">全部</a> 
+	</div>
+	<p class="TimeDef">
+		自定<input type="text" class="Timeinput hasDatepicker" name="startTime" id="startTime">到 <input type="text" class="Timeinput mrnone hasDatepicker" name="endTime" id="endTime">
+	</p>
+	<div class="opeDiv after">
+		<small class="l" style="display: none; margin-left: 30px;" id="datamessage"></small>
+		<a id="confirmBtn" class="timecolse r Confirm" onclick="show_date()">确定</a>
+		<a id="cancelBtn" class="r Cancel" onclick="show_date()">取消</a>
+	</div>
+</div>
+</div>
+			<div style=" z-index:99" class="relative r" id="selectChoose"><a id="selectBtn" class="time">
+	<span>
+		<font class="Filterbut">筛选</font>
+	</span>
+</a>
+<div style="width:490px; right:0" id="selectPanel" class="timetxt hide">
+    <!-- 渠道 -->
+    <div id="partnerDIV">
+    <div class="brdediv">
+        <font class="l">
+            渠道：
+        </font>
+        <a class="r partner" type="partner" id="removeHaveChoosed">不筛选</a>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="Sievexx" id="partnerList"></div>
+    </div>
+    
+    <!-- 区服 -->
+    <div id="gameserverDIV">
+    <div class="brdediv">
+        <font class="l">
+            区服：
+        </font>
+        <a class="r gameserver" type="gameserver" id="removeHaveChoosed">不筛选</a>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="Sievexx" id="gameserverList"></div>
+    </div>
+	<div class="opeDiv after">
+		<a id="confirmBtn" class="Sievecolse r Confirm">确定</a>
+		<a id="cancelBtn" class="Sievecolse r Cancel">取消</a>
+	</div>
+</div></div>
+			<div class="clear"></div>
+			<div class="Editor hide Filter" id="showSelectedPartners">
+				<div id="selectVersion"></div>
+			</div>
+		</div>
+
+		<div id="levelDistributionOfPlayerCode">
+			<div role="title" class="title">
+				<strong class="l">玩家等级分布</strong>
+			<a class="r Cancel minCancel" role="excel"><font class="dow">Excel</font></a><a style="z-index: 13;" class="Cancel r relative minCancel" role="indicator"><font class="indicator">?</font></a></div>
+			<div class="textbox">
+				<div role="chart">
+					<div class="picbox" id="levelDistributionOfPlayerCode-chart" data-highcharts-chart="122"><div class="highcharts-container" id="highcharts-504" style="position: relative; overflow: hidden; width: 1032.17px; height: 290.167px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Verdana,Arial,Helvetica,sans-serif; font-size: 12px; left: 0.166672px; top: 0.666672px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1032" height="290.16666599999996"><defs><clipPath id="highcharts-505"><rect fill="none" x="0" y="0" width="1012" height="264"/></clipPath></defs><rect rx="5" ry="5" fill="#fff" x="0" y="0" width="1032" height="290" stroke-width="0"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-axis" zIndex="2"><path fill="none" d="M 10 275.5 L 1022 275.5" stroke="#DCDCDC" stroke-width="1" zIndex="7" visibility="visible"/></g><g class="highcharts-axis" zIndex="2"/><g class="highcharts-axis" zIndex="2"/><g class="highcharts-series-group" zIndex="3"><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(10,10)" clip-path="url(#highcharts-505)"/><g class="highcharts-markers" visibility="visible" zIndex="0.1" transform="translate(10,10)"/></g><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-tooltip" zIndex="8" style="padding:0;white-space:nowrap;" visibility="hidden"><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="5" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="3" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="1" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.15" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="rgb(0,0,0)" x="0" y="0" width="10" height="10" stroke-width="2" fill-opacity="0.65"/><text x="5" y="18" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#F0F0F0;fill:#F0F0F0;" zIndex="1"/></g><g class="highcharts-tracker" zIndex="9"><g visibility="visible" zIndex="1" transform="translate(10,10)" clip-path="url(#highcharts-505)"/></g></svg></div></div>
+					<div class="after">
+		        		<a class="pic_but l hover" role="chartBtn"><font class="pic_icon">图表</font></a>
+		        		<a class="pic_but l" role="tableBtn"><font class="table_icon">表格</font></a>
+		        	</div>
+				</div>
+				<div role="table" style="display: none;">
+					<div class="picbox" id="levelDistributionOfPlayerCode-table"> <div class="dataTables_wrapper"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_style1" style="">
+	<thead>
+		<tr><th width="50%" class="sorting_asc" rowspan="1" colspan="1">等级</th><th width="50%" class="sorting" rowspan="1" colspan="1">活跃玩家</th></tr>
+	</thead>
+	
+<tbody><tr class="odd"><td valign="top" colspan="2" class="dataTables_empty">对不起，查询不到任何相关数据</td></tr></tbody></table><div class="tableview"><div></div><div class="dataTables_paginate paging_two_button"><a class="paginate_disabled_previous paginate_button"></a><span class="navigationLabel"><font class="pageIndex">1</font>/<font class="totalPages">0</font></span><a class="paginate_disabled_next paginate_button"></a></div></div></div></div>
+					<div class="after">
+		        		<a class="pic_but l" role="chartBtn"><font class="pic_icon">图表</font></a>
+		        		<a class="pic_but l hover" role="tableBtn"><font class="table_icon">表格</font></a>
+		        	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="boxmax">
+		<div id="levelDistributionOfPlayTimesCode">
+			<div role="title" class="title">
+				<strong class="l">游戏次数等级分布</strong>
+			<a class="r Cancel minCancel" role="excel"><font class="dow">Excel</font></a><a style="z-index: 12;" class="Cancel r relative minCancel" role="indicator"><font class="indicator">?</font></a></div>
+			<div class="textbox">
+				<div role="chart">
+					<div class="picbox" id="levelDistributionOfPlayTimesCode-chart" data-highcharts-chart="124"><div class="highcharts-container" id="highcharts-508" style="position: relative; overflow: hidden; width: 1032.17px; height: 290.167px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Verdana,Arial,Helvetica,sans-serif; font-size: 12px; left: 0.166672px; top: 0.333313px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1032" height="290.16666599999996"><defs><clipPath id="highcharts-509"><rect fill="none" x="0" y="0" width="1012" height="264"/></clipPath></defs><rect rx="5" ry="5" fill="#fff" x="0" y="0" width="1032" height="290" stroke-width="0"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-axis" zIndex="2"><path fill="none" d="M 10 275.5 L 1022 275.5" stroke="#DCDCDC" stroke-width="1" zIndex="7" visibility="visible"/></g><g class="highcharts-axis" zIndex="2"/><g class="highcharts-axis" zIndex="2"/><g class="highcharts-series-group" zIndex="3"><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(10,10)" clip-path="url(#highcharts-509)"/><g class="highcharts-markers" visibility="visible" zIndex="0.1" transform="translate(10,10)"/></g><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-tooltip" zIndex="8" style="padding:0;white-space:nowrap;" visibility="hidden"><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="5" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="3" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="1" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.15" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="rgb(0,0,0)" x="0" y="0" width="10" height="10" stroke-width="2" fill-opacity="0.65"/><text x="5" y="18" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#F0F0F0;fill:#F0F0F0;" zIndex="1"/></g><g class="highcharts-tracker" zIndex="9"><g visibility="visible" zIndex="1" transform="translate(10,10)" clip-path="url(#highcharts-509)"/></g></svg></div></div>
+					<div class="after">
+		        		<a class="pic_but l hover" role="chartBtn"><font class="pic_icon">图表</font></a>
+		        		<a class="pic_but l" role="tableBtn"><font class="table_icon">表格</font></a>
+		        	</div>
+				</div>
+				<div role="table" style="display: none;">
+					<div class="picbox" id="levelDistributionOfPlayTimesCode-table"> <div class="dataTables_wrapper"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_style1" style="">
+	<thead>
+		<tr><th width="50%" class="sorting_asc" rowspan="1" colspan="1">等级</th><th width="50%" class="sorting" rowspan="1" colspan="1">游戏次数</th></tr>
+	</thead>
+	
+<tbody><tr class="odd"><td valign="top" colspan="2" class="dataTables_empty">对不起，查询不到任何相关数据</td></tr></tbody></table><div class="tableview"><div></div><div class="dataTables_paginate paging_two_button"><a class="paginate_disabled_previous paginate_button"></a><span class="navigationLabel"><font class="pageIndex">1</font>/<font class="totalPages">0</font></span><a class="paginate_disabled_next paginate_button"></a></div></div></div></div>
+					<div class="after">
+		        		<a class="pic_but l" role="chartBtn"><font class="pic_icon">图表</font></a>
+		        		<a class="pic_but l hover" role="tableBtn"><font class="table_icon">表格</font></a>
+		        	</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div id="levelOfLossPlayerCode" class="boxmax">
+		<div role="title" class="title">
+			<strong class="l">流失玩家停留等级</strong>
+		<a class="r Cancel minCancel" role="excel"><font class="dow">Excel</font></a><a style="z-index: 11;" class="Cancel r relative minCancel" role="indicator"><font class="indicator">?</font></a></div>
+		<div class="textbox">
+			<div role="tabbar" class="box_top">
+				<a class="tab hover" data-tab="seven">7日未登录玩家</a>
+				<a class="tab" data-tab="fourteen">14日未登录玩家</a>
+				<a class="tab" data-tab="thirty">30日未登录玩家</a>
+			</div>
+			<div role="chart">
+				<div class="picbox" id="levelOfLossPlayerCode-chart" data-highcharts-chart="123"><div class="highcharts-container" id="highcharts-506" style="position: relative; overflow: hidden; width: 1032.17px; height: 290.167px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Verdana,Arial,Helvetica,sans-serif; font-size: 12px; left: 0.166672px; top: 0px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1032" height="290.16666599999996"><defs><clipPath id="highcharts-507"><rect fill="none" x="0" y="0" width="1012" height="264"/></clipPath></defs><rect rx="5" ry="5" fill="#fff" x="0" y="0" width="1032" height="290" stroke-width="0"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-grid" zIndex="1"/><g class="highcharts-axis" zIndex="2"><path fill="none" d="M 10 275.5 L 1022 275.5" stroke="#DCDCDC" stroke-width="1" zIndex="7" visibility="visible"/></g><g class="highcharts-axis" zIndex="2"/><g class="highcharts-axis" zIndex="2"/><g class="highcharts-series-group" zIndex="3"><g class="highcharts-series" visibility="visible" zIndex="0.1" transform="translate(10,10)" clip-path="url(#highcharts-507)"/><g class="highcharts-markers" visibility="visible" zIndex="0.1" transform="translate(10,10)"/></g><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-axis-labels" zIndex="7"/><g class="highcharts-tooltip" zIndex="8" style="padding:0;white-space:nowrap;" visibility="hidden"><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="5" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="3" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="none" x="0" y="0" width="10" height="10" stroke-width="1" fill-opacity="0.65" isShadow="true" stroke="black" stroke-opacity="0.15" transform="translate(1, 1)"/><rect rx="5" ry="5" fill="rgb(0,0,0)" x="0" y="0" width="10" height="10" stroke-width="2" fill-opacity="0.65"/><text x="5" y="18" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#F0F0F0;fill:#F0F0F0;" zIndex="1"/></g><g class="highcharts-tracker" zIndex="9"><g visibility="visible" zIndex="1" transform="translate(10,10)" clip-path="url(#highcharts-507)"/></g></svg></div></div>
+				<div class="after">
+	        		<a class="pic_but l hover" role="chartBtn"><font class="pic_icon">图表</font></a>
+	        		<a class="pic_but l" role="tableBtn"><font class="table_icon">表格</font></a>
+	        	</div>
+			</div>
+			<div role="table" style="display: none;">
+				<div class="picbox" id="levelOfLossPlayerCode-table"> <div class="dataTables_wrapper"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_style1" style="">
+	<thead>
+		<tr><th width="50%" class="sorting_asc" rowspan="1" colspan="1">等级</th><th width="50%" class="sorting" rowspan="1" colspan="1">7日未登录玩家</th></tr>
+	</thead>
+	
+<tbody><tr class="odd"><td valign="top" colspan="2" class="dataTables_empty">对不起，查询不到任何相关数据</td></tr></tbody></table><div class="tableview"><div></div><div class="dataTables_paginate paging_two_button"><a class="paginate_disabled_previous paginate_button"></a><span class="navigationLabel"><font class="pageIndex">1</font>/<font class="totalPages">0</font></span><a class="paginate_disabled_next paginate_button"></a></div></div></div></div>
+				<div class="after">
+	        		<a class="pic_but l" role="chartBtn"><font class="pic_icon">图表</font></a>
+	        		<a class="pic_but l hover" role="tableBtn"><font class="table_icon">表格</font></a>
+	        	</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+</body>
+<script src="js/searchya.js" id="searchyampvep" type="application/x-javascript"></script></html>

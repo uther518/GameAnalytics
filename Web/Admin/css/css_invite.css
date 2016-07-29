@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*.invite_friend { height:34px; padding:8px 0; width:100%; position:fixed; left:0; bottom:0; background:rgba(64,92,134,.9); color:#fff;}
+*/
+/*.invite_friend { height:34px; padding:8px 0; width:100%; position:fixed; left:0; bottom:0; background:#405c86;opacity: 0.9; filter:alpha(opaity=90);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";  color:#fff;}
+*/
+.invite_friend { height:34px; padding:5px 0; width:100%; position:fixed; left:0; bottom:0; color:#fff; z-index: 99999;
+	background:url(../images/int-bg.png);
+	/*background:rgba(64,92,134); background:rgba(64,92,134,.9); 
+-ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#90405c86,endColorstr=#90405c86);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#90405c86,endColorstr=#90405c86);*/
+}
+
+a#inviteButton{
+	display: block; width: 146px; height: 38px; background: url(../images/int-button.png)
+}
+a:hover#inviteButton{
+	 background: url(../images/int-button-c.png)
+}
+a#removeInviteBtn{
+	background: url(../images/int-close.png); width: 22px; height: 22px; display: block;
+}
+a:hover#removeInviteBtn{
+	background: url(../images/int-close-c.png);
+}
+.invite_friend a:hover { color:#fff; text-decoration:none}
+.invite_friend span { float:left; padding:0 10px 0 30px;}
+.invite_friend font { float:left; padding-top:10px;}
+.invite_friend em { float:left; padding:8px 6px 0 20px;}
+.invite_friend strong { float:right; padding:10px 15px 0 0;}
+
+/*弹出框样式*/
+.invite-box { width:691px; padding:0 6px; background:#eff4fa; text-align: left; border: 6px solid rgb(127,187,203); border: 6px solid rgba(118,230,255,.4); border-radius:14px; color:#4a5f6d; }
+
+.box_title { border-bottom:1px solid #f9fbfd; zoom:1; overflow:hidden}
+.box_title span { float:right; padding:8px 3px 0 0;}
+.box_title h3 { clear:both; font-size:20px; color:#4a5f6d; padding:3px 0 15px 85px; display:block; zoom:1; overflow:hidden; border-bottom:1px solid #d7dfe8; font-weight:bold}
+.box_title h3 img { float:left; margin-right:20px;}
+.box_title h3 font { padding-top:8px; float:left}
+
+.content_box { clear:both; padding:27px 20px 60px 20px; zoom:1; overflow:hidden;}
+.content_box_left { float: left; border-right: 2px dashed #cdcdcd; padding-right:30px; width:350px;}
+.write_invite { clear:both; padding-bottom:4px; zoom:1;}
+.write_invite span { float:left; padding:8px 20px 0 0;}
+.write_invite .input_invite { width:258px; height:28px; line-height:28px; padding:2px 4px 0 4px; border:2px solid #7fc3da; -webkit-box-shadow:0 0 5px 1px #6dcdd7; -moz-box-shadow:0 0 5px 1px #6dcdd7; box-shadow:0 0 5px 1px #6dcdd7; border-radius:2px; color:#4a5f6d; font-size:14px; }
+.write_invite img { clear:both; float:right; margin-top:15px;}
+.content_box_left h4 { clear:both; font-size:14px; padding-bottom:20px; display:block; }
+.content_box_left h4 img { margin-right:8px;}
+.your_url { clear:both; padding-top:10px; zoom:1}
+.your_url span { display:block; padding:5px 0}
+.your_url .copy_url { width:334px; border:2px solid #91ca87; background:#c8e0cf; color:#47803e; border-radius:2px; padding:8px 6px; zoom:1; overflow:hidden;}  
+.your_url .copy_url em { font-style:normal; float:left;} 
+.your_url .copy_url strong { font-weight:normal; float:right; font-size:12px; }
+.your_url .copy_url strong a { color:#47803e; text-decoration:underline;}
+
+.content_box_right { float:right; width:240px; color:#4a5f6d;}
+.content_box_right h4 { display:block; color:#129891; font-size:14px; padding:4px 0;font-weight: bold;}
+.content_box_right em { display:block; clear:both; line-height:22px; font-style:normal; padding-bottom:10px;}
+.content_box_right span { display:block; clear:both; line-height:22px; padding-bottom:5px;}
+.content_box_right h5 { display:block; color:#4a5f6d; font-size:12px; }
+.content_box_right ul { margin:0; padding:0;}
+.content_box_right ul li { list-style:none; clear:both; line-height:22px; padding-left:15px; background:url(../images/int-icon.jpg) no-repeat 0 6px;}

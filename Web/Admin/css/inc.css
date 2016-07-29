@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0; margin:0; background:url(../images/bg.jpg); font-size:14px; font-family:Arial,"微软雅黑"; _text-align: center;
+}
+body div{
+	_text-align:left;
+}
+div,form,img,ul,ol,li,dl,dt,dd,span,p{margin:0px;padding:0px;border:none;vertical-align:top}
+ul,dl,ol{list-style-type:none;}
+h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+a:link,a:visited{
+	color:#fff;text-decoration:none;
+}
+input{
+	outline: medium none
+}
+a:hover,a:active{
+	color:#28A7E1; text-decoration:underline;
+}
+a,a:active {
+	outline: none;star:expression_r(this.onFocus=this.blur());
+}
+.after:after{
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+*+html .after:after,* html .after:after{
+	display: inline-block;
+}
+.l{
+	float:left;
+}
+.r{
+	float:right
+}
+.clear{
+	height:0px; font-size:0px; line-height:0px; clear:both
+}
+.relative{
+	position:relative;
+}
+.main{
+	width:1000px; margin:0 auto;
+}
+.mauto{
+	 margin:0 auto;
+}
+.top{
+	width:100%; height:43px; border-top:8px solid #C0D4DC;
+}
+.login,.subnav{
+	background:url(../images/Login.png) no-repeat right top; height:43px; width:970px; margin-top:-12px; padding:12px 30px 0 0; color:#fff; text-align:right; line-height:43px; text-shadow:0 1px #666;
+}
+.login a,.subnav a{
+	margin:0 10px;
+}
+.login a:hover{
+	color:#fff;
+}
+.subnav{
+	background:none; color:#4685A7; text-shadow:none
+}
+.subnav a{
+	color:#4685A7;
+}
+.bottom{
+	height:66px; width:100%; background:url(../images/copyright.jpg); color:#3595C2; font-size:12px 
+}
+.copyright{
+	width:1000px; margin:0 auto; display:block; padding-top:15px
+}
+.copyright span a,.copyright span a:visited{
+	color:#3595C2; margin:0 10px
+}
+.Language{
+	width: 150px; display: block; color: #2F913A; font-weight: bold;
+}
+.Language a,.Language a:link{
+	color: #2F913A
+}
+.menu{
+	height:400px; width:94px; position:absolute; left:0px; top:70px; z-index:9;_text-align:left;
+}
+.menu a{
+	display:block; height:80px; width:82px; font-size:12px; letter-spacing:3px
+}
+.menu a span{
+	padding:56px 0 0 25px; display:block;
+}
+.menu a:hover,.menu a:visited{
+	 text-decoration:none;width:94px;
+}
+.menu a:hover span,.menu a:visited span,.menu a.hover{
+	
+}
+.menu a.hm{
+	background:url(../images/hm.jpg) no-repeat left top;
+}
+.menu a.hm span{
+	background:url(../images/home-icon.png) no-repeat 20px 22px;color:#002E3D
+}
+.menu a:hover.hm span{
+	background:url(../images/home-icon-s.png) no-repeat 20px 22px;color:#fff; 
+}
+
+
+.menu a.fn{
+	background:url(../images/fn.jpg) no-repeat left top;
+}
+.menu a.fn span{
+	background:url(../images/function-icon.png) no-repeat 20px 22px;color:#244839
+}
+.menu a:hover.fn span{
+	background:url(../images/function-icon-c.png) no-repeat 20px 22px; color:#fff;
+}
+
+
+.menu a.pr{
+	background:url(../images/pr.jpg) no-repeat left top;
+}
+.menu a.pr span{
+	background:url(../images/price-icon.png) no-repeat 20px 19px;color:#20493E
+}
+.menu a:hover.pr span{
+	background:url(../images/price-icon-c.png) no-repeat 20px 20px; color:#fff;
+}
+
+
+.menu a.bg{
+	background:url(../images/blog.jpg) no-repeat left top;
+}
+.menu a.bg span{
+	background:url(../images/blog-icon.png) no-repeat 20px 22px;color:#0E383A
+}
+.menu a:hover.bg span{
+	background:url(../images/blog-icon-c.png) no-repeat 20px 22px; color:#fff;
+}
+
+
+.menu a.cn{
+	background:url(../images/cn.jpg) no-repeat left top;
+}
+.menu a.cn span{
+	background:url(../images/contact-icon.png) no-repeat 20px 22px;color:#002E3D
+}
+.menu a:hover.cn span{
+	background:url(../images/contact-icon-c.png) no-repeat 20px 22px; color:#fff;
+}
+
+.BasicSubscribe,.ProSubscribe,.PremiumSubscribe{
+	width:104px; height: 33px; font-weight: bold; display: block; letter-spacing: 3px; background: url(../images/order1.jpg) no-repeat; text-align: center; line-height: 33px; font-size: 14px; text-shadow: 1px 2px 3px #545454 
+}
+.BasicSubscribe:hover,.ProSubscribe:hover,.PremiumSubscribe:hover,.Try30:hover{
+	color: #fff; text-decoration: none;
+}
+.ProSubscribe{
+	background: url(../images/order2.jpg) no-repeat;
+}
+.PremiumSubscribe{
+	background: url(../images/order3.jpg) no-repeat;
+}
+.Try30{
+	width: 284px; height: 52px; display: block; background: url(../images/get.png) no-repeat; margin: 66px 0 0 88px; text-indent: 82px;
+    text-shadow: 1px 2px 3px #2A4816;font-size: 18px; line-height: 50px;
+}
+#registul {
+	height: 410px;
+}
+#login.content{
+	height: 510px;
+}
+#login.content .alert{
+	height:432px
+}
+#login.content .txt{
+	height:340px
+}

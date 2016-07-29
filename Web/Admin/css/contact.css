@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../images/cn_bg.jpg);
+}
+.top{
+	border-top-color: #415364;
+}
+
+.menu a.cn{
+	 width:94px;
+}
+.menu a.cn span{
+	background:url(../images/contact-icon-c.png) no-repeat 20px 22px; color:#fff;
+}
+.logo{
+	text-align:center; margin-top:26px; height:123px;
+}
+
+.content{
+	background:url(../images/cn_light.png) no-repeat center top; height:570px
+}
+.title{
+	height:86px;background:url(../images/cn_title.jpg); color:#fff;border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0; line-height:86px; font-size:20px; text-align:center
+}
+.alert{
+	 border-radius:5px;-webkit-border-radius:5px; height:448px; background:#fff; box-shadow:0 0 5px #111; margin:0 auto;border-bottom:1px solid #666; width:400px;
+}
+.txt{
+	border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px; height:356px; background:#fff; border-bottom:1px solid #999;box-shadow:0 0 1px #999; width:100%
+}
+.text{
+	border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px; height:270px; background:#fff; border-bottom:1px solid #999;box-shadow:0 1px 1px #999; width:100%; color:#585858; padding-top:20px;
+}
+.text p{
+	font-size:16px; text-align:center;
+}
+.text font.Success{
+	display:block;width:260px; margin:20px auto 140px auto; font-size:12px;
+}
+.text li.relative span{
+	background:url("../images/icon.gif") no-repeat scroll 14px center #FFEBE8;
+    border: 1px solid #FAD0CA;
+    display: none;
+    height: 24px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 10px 0 35px;
+    position: absolute;
+    right: 43px;
+    top:10px;
+    width: auto;
+}
+.text li.relative{
+    padding:0 0 20px 36px;
+}
+p#loading{
+	font-size:14px; height:25px; line-height:25px;margin: 10px 0 0 35px; display:none
+}
+
+.text label{
+	height:31px; display:block; line-height:31px; margin-left: 12px
+}
+.text li label{
+	 position: absolute;  color: #8b8b8b;
+}
+.text input.input,.text textarea.input{
+	height:31px; line-height:31px; padding:0 0 0 10px; border:1px solid #CDCDCD;border-radius:3px;-webkit-border-radius:3px; font-size:14px; color:#3d4042; width:313px; box-shadow: 0 1px 0 #E2E2E2; font-family:arial,"微软雅黑"; background: url(../images/input_bg.jpg) repeat-x;
+}
+.text input.input.hover{
+	border:2px solid #7FC3DA; box-shadow:0 0 5px #5AAAC5; height: 29px; line-height: 29px; padding-left: 9px;
+}
+.text span a{
+	color:#409BAD; text-decoration:underline; margin-left:60px
+}
+.text span a.button,.text span a:visited.button{
+	display:block; height:35px; line-height:35px; background:url(../images/button_r.png) no-repeat right center; float:right; padding-right:16px; text-decoration:none; color:#fff; text-shadow:0 1px #254C69; margin:10px 40px 0 0;
+}
+.text span a.button font{
+	display:block; height:35px; float: left; line-height:35px; background:url(../images/button_l.png) no-repeat left center; text-align:center; padding:0 0px 0 36px; letter-spacing:20px;
+}
+*+html .text span a.button font{
+	  padding:0 0px 0 20px;
+}
+.text span{
+	line-height:50px; display:block; height:50px
+}
+.text strong{
+	display:block; width:320px; border-top:1px solid #D9D9D9; margin:20px auto 0 auto; text-align:center; line-height:50px
+}
+.text strong a{
+	color:#D86B00; text-decoration:underline
+}
+.text dd{
+	border-right:2px dashed #D9D9D9; width:400px;
+}
+.text textarea.input{
+	height:150px; line-height: 24px; padding-top: 2px;
+}
+.text dt{
+	width:398px; text-align:center
+}
+.text dt p{
+	text-align:left	; padding:0 40px; line-height:24px;	
+}
+.text dt img{
+	margin-top:15px;
+}
+.tipinfo{
+	color: #585858;
+    line-height: 24px;
+    padding: 20px 34px 0;
+}
