@@ -1,7 +1,7 @@
 # GameAnalytics 游戏统计分析系统
 
 ##安装方法
-搭建apache/nginx + php5，mongodb-server安装，安装php的mongo扩展。<br>
+###搭建apache/nginx + php5，mongodb-server安装，安装php的mongo扩展。<br>
 centos:<br>
 php环境安装:yum install php<br>
 mongodb安装:yum install mongodb-server<br>
@@ -19,7 +19,7 @@ php扩展安装:apt-get install php-mongo<br>
 
 安装搞不定，自己百度吧<br>
 
-*代码布署<br>
+###代码布署<br>
 git clone将代码放到web目录中，如/var/www/html<br>
 生成测试数据:http://192.168.0.6/GameAnalytics/Web/Api/api.php?method=Install.run<br>
 登录管理后台:http://192.168.0.6/GameAnalytics/Web/Admin/admin.php<br>
