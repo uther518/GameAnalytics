@@ -25,10 +25,9 @@ define( "CON_DIR" , ROOT_DIR ."/Controller/Api" );
 define( "CONFIG_DIR" , ROOT_DIR . "/Config" );
 
 $_POST = $_GET = $_REQUEST;
-//file_put_contents( "/tmp/log121", json_encode( $_GET )."\n\n" , FILE_APPEND );
 
 //调试设置
-if( DEBUG && isset( $_GET["debug"] ) || 1  )
+if( DEBUG && isset( $_GET["debug"] )  )
 {
 	error_reporting( E_ALL ^ E_NOTICE );
 	ini_set( 'display_errors' , 'On' );

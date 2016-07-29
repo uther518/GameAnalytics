@@ -225,10 +225,9 @@
 </div>
 
 <div id="frameContent" style="width:100%;margin-top:103px;">
-<iframe src="?f=left" style="float:left; width:18%; height:100%"></iframe>   
-<iframe src="?f=right" name="right" style="float:right; width:82%; height:100%"></iframe>
+<iframe src="?f=left" style="float:left; width:14%; height:100%"></iframe>
+<iframe src="?f=right" name="right" style="float:left; width:86%; height:100%"></iframe>
 </div>
-
 
 
 
