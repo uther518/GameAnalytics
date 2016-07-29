@@ -26,3 +26,12 @@ git clone将代码放到web目录中，如/var/www/html<br>
 登录帐号和密码都是:admin<br>
 在线demo地址:http://47.90.45.126:81/GameAnalytics/Web/Admin/admin.php<br>
 
+
+###注意事项<br>
+1,目录后台仅兼容firefox和google浏览器，其它浏览器后续更新<br>
+
+
+###联系方式<br>
+微信:lchb5288<br>
+QQ:910433696<br>
+
