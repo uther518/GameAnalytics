@@ -41,7 +41,6 @@ class Stats_Analysis extends Stats_Base
 		self::$resultData = array();
 		self::$resultData['date'] = $day; 
 	
-		
 		//数据统计
 		self::_makeUserData();
 		
@@ -229,7 +228,7 @@ class Stats_Analysis extends Stats_Base
 		$reduce = '
 			function(obj, prev) {
 			   prev.times++;
-			   prev.coins += parseInt(obj.coin);
+			   prev.coins+=obj.coin;
 			}';
 		$condition = array( 'condition' => array(
 			'serverTime' => array(
@@ -238,7 +237,6 @@ class Stats_Analysis extends Stats_Base
 			),
 		));
 		self::$resultData['gainCoin'] = self::group( "gainCoin" , $keys , $initial , $reduce , $condition );
-		
 		//元宝支出统计
 		$initial = array( "coins" => 0 , "times" => 0 );
 		self::$resultData['consumeCoin'] = self::group( "consumeCoin" , $keys , $initial , $reduce , $condition );
@@ -250,7 +248,7 @@ class Stats_Analysis extends Stats_Base
 		$reduce = '
 			function(obj, prev) {
 			   prev.times++;
-			   prev.golds += parseInt(obj.gold );
+			   prev.golds += obj.gold;
 			}';
 		$condition = array( 'condition' => array(
 			'serverTime' => array(
@@ -297,7 +295,7 @@ class Stats_Analysis extends Stats_Base
 		$reduce = '
 			function(obj, prev) {
 			   prev.times++;
-			   prev.rmbs += parseInt(obj.rmb);
+			   prev.rmbs += obj.rmb;
 			}';
 			$condition = array( );
 		$rs  = self::group( "recharge" , $keys , $initial , $reduce , $condition );
