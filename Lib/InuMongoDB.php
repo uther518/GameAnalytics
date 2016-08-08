@@ -383,7 +383,16 @@ class InuMongoDB
     public function distinct( $collection,  $key , $condition )
     {
     	$dbname  =  $this->currDBName;
-    	return $this->mongo->$dbname->$collection->distinct( $key , $condition );
+	if(  $condition )
+	{
+  		$ret =  $this->mongo->$dbname->$collection->distinct( $key ,  $condition );
+	}
+	else
+	{
+		 $ret =  $this->mongo->$dbname->$collection->distinct( $key  );
+	}
+
+	return $ret;
     }
     
     /** 
