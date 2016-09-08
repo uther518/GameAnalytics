@@ -769,7 +769,7 @@ class Stats_Display extends Stats_Base
 				*/
 				 $newbieTurn[$i] = self::getNewbieTurn( $i , $maxNewbie , 0 , $newbies );
 			}
-			
+			ksort( $newbies ); 
 			self::$returnData[$item]['xAxis']['categories'] = $newbiex;
 			if( $_GET['act'] == 'newbieMap' )
 			{
