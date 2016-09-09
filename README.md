@@ -26,7 +26,10 @@ git clone将代码放到web目录中，如/var/www/html<br>
 登录帐号和密码都是:admin<br>
 在线demo地址:http://47.90.45.126:81/GameAnalytics/Web/Admin/admin.php<br>
 
-###定时执行分析任务，可以将其加在crontab中,定时执行<br>
+###定时分析<br>
+可以手动执行以下命令执行分析任务，或者将其加入到crontab中定时执行<br>
+php /var/www/GameAnalytics/Web/Cli/cli.php Api.doStats 游戏ID  服务器ID<br>
+如:<br>
 php /var/www/GameAnalytics/Web/Cli/cli.php Api.doStats 1000 10
 
 ###注意事项<br>
