@@ -176,14 +176,19 @@ class IndexController extends AdminBaseController
 	{
 		$endDate   = $_GET['endDay'] ? $_GET['endDay'] : date( "Ymd" , $_SERVER['REQUEST_TIME']);
 		$startDate = $_GET['startDay'] ? $_GET['startDay'] : date( "Ymd" ,  $_SERVER['REQUEST_TIME']-1000*86400 );
+	
+		
 		
 		//查询
 		$params['notAutoQuery'] = 1;
 		
 		$action = $_GET['f'];
 		$showData = Stats_Display::doDisplay( $action , $startDate , $endDate , $params );
-		
-		
+	
+		if( $_GET['export'])
+		{
+
+		}
 		//结果处理
 		$recordCount = $showData['count'];
 		$pages = ceil( $recordCount / 30 );
@@ -896,6 +901,32 @@ class IndexController extends AdminBaseController
 		echo mb_convert_encoding($_GET['data'],"GB2312","UTF-8");
 		
 		
+	}
+	
+	
+	public function exportExcel()
+	{
+		include LIB_DIR."/PHPExcel.php";
+        
+        // Create new PHPExcel object
+        $objPHPExcel = new PHPExcel();
+
+        $data = array(
+            array( "a" => 111, "b" => 333, "c" => "444" ),
+            array( "a" => 3333, "b" => 1111, "c" => "xxx" ),
+            array( "a" => "ffff", "b" => "xxx", "c" => "444" ),
+            array( "a" => 111, "b" => 333, "c" => "444" ),
+        );
+        
+        $excelData = array(
+            "test",
+            array( "用户ID" , "人数" , "时间"),
+            array( "a" , "b" , "c" ),
+            $data,
+        );
+        
+        $objPHPExcel->exportArray(   $excelData );
+        exit;
 	}
 	
 }
