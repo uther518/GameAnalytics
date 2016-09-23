@@ -917,12 +917,16 @@ class IndexController extends AdminBaseController
             array( "a" => "ffff", "b" => "xxx", "c" => "444" ),
             array( "a" => 111, "b" => 333, "c" => "444" ),
         );
+        //$data是要导出的数据，可以从mongodb查询出来
+        //类似$adminList = Stats_Model::find( 'adminUser' , $query );
         
+		
+		
         $excelData = array(
-            "test",
-            array( "用户ID" , "人数" , "时间"),
-            array( "a" , "b" , "c" ),
-            $data,
+            "test",  //这是excel文件名称
+            array( "用户ID" , "人数" , "时间"), //excel第一行字段名称
+            array( "a" , "b" , "c" ),	//这是对应于$data中每行的key,使顺序与第一行字段名称一致。
+            $data,	//这是要导出的二维数组数据
         );
         
         $objPHPExcel->exportArray(   $excelData );
